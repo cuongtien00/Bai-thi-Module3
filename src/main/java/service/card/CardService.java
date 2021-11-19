@@ -101,7 +101,7 @@ public boolean updateStatus(Card card){
     @Override
     public List<Card> findAll() throws SQLException {
         List<Card>cards = new ArrayList<>();
-        PreparedStatement statement = connection.prepareStatement("select * from card;");
+        PreparedStatement statement = connection.prepareStatement("select * from card where status = 1;");
         ResultSet rs = statement.executeQuery();
         while (rs.next()){
             int id = rs.getInt("id");

@@ -42,13 +42,14 @@
         <form method="post">
             <table class="table table-warning table-striped table-hover">
                 <tr>
-                    <td>Do you ${book.name} </td>
+                    <td> Book:${book.name} </td>
+                    <td> Have you made sure to return the book?</td>
                 </tr>
                 <tr>
-                    <td><input type="submit" value="Return"></td>
+                    <td><input type="submit" value="Yes"></td>
                 </tr>
                 <tr>
-                    <td><a href="/cards">Nope</a>
+                    <td><button> <a href="/cards">Nope</a></button>
                     </td>
 
                 </tr>

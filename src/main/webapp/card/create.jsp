@@ -37,7 +37,7 @@
 <body >
 
 <div align="center">
-    <h1><a href="/books">Book management</a></h1>
+    <h1 style="color: white"><a href="/books">Book management</a></h1>
     <fieldset>
         <legend>Create Card</legend>
         <form method="post">

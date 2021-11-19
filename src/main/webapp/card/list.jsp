@@ -15,7 +15,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Book Management</title>
+    <title>Card Management</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <style>
@@ -39,8 +39,8 @@
 <body>
 
 <div align="center">
-    <h1><a href="/cars" style="color: red">Cards Management</a></h1>
-    <h3><a href="/cards?action=create" style="color: red">Create new Card</a></h3>
+    <h1 style="color: white">Cards Management</h1>
+    <h3 style="color: white"><a href="/books" >Library</a></h3>
     <table border="1" class="table table-warning table-striped table-hover">
         <tr>
             <th><a href="/books?action=sort">Card Code</a></th>
